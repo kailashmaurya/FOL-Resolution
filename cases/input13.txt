@@ -1,0 +1,13 @@
+2
+Frustrated(Coy)
+Frustrated(Bill)
+9
+(Coyote(x) => (~((~Roadrunner(y)) | (~Chase(x,y)))))
+((Roadrunner(x) & Beep(x)) => Smart(x))
+(((~Coyote(x)) | (~Roadrunner(y))) | ((~Smart(y)) | (~Catch(x,y))))
+(((~Coyote(x)) | (~Roadrunner(y))) | ((~Chase(x,y)) | (Catch(x,y) | Frustrated(x))))
+(Roadrunner(x) => Beep(x))
+Beep(RR)
+(Coyote(Coy) & (~Coyote(Bill)))
+Roadrunner(RR)
+Roadrunner(RRtwo)

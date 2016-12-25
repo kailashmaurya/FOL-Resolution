@@ -1,0 +1,10 @@
+2
+~Loves(Mary, John)
+~Loves(Mary, Bill)
+6
+(Loves(Mary,x) => Star(x))
+((Student(x) & (~Pass(x))) => (~Play(x)))
+Student(John)
+((Student(x) & (~Study(x))) => (~Pass(x)))
+((~Play(x)) => (~Star(x)))
+(~Study(John))

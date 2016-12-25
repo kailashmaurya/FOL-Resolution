@@ -1,0 +1,11 @@
+2
+~Loves(Bill, Santa)
+Loves(Jhonny, Santa)
+7
+(((Child(x) & Present(y)) & Give(z,y,x)) => Loves(x,z))
+(Travel(Santa, Christmas) => (Child(x) & (Present(y) & Give(Santa, y, x))))
+Foggy(Christmas)
+(Foggy(t) => (Light(y) & Has(x,y)))
+((Light(y) & Has(x,y)) => Travel(x,t))
+RedNoseReindeer(x) => Light(x)
+(RedNoseRaindeer(Bob) & Has(Santa,Bob))

@@ -1,0 +1,12 @@
+2
+~Date(Mary,John)
+Date(Mary,Bill)
+8
+(Buy(x) => (~((~Owns(x,y)) | ((~Rabbit(y)) & (~Grocery(y))))))
+(Dog(x) => (~((~Rabbit(y)) | (~Chase(x,y)))))
+Buy(Mary)
+((Owns(x,y) & Rabbit(y)) => ((Rabbit(w) & Chase(z,w)) => Hates(x,z)))
+(~((~Dog(x)) | (~Owns(John,x))))
+((Owns(y,z) & Hates(x,z)) => (~Date(x,y)))
+Grocery(G)
+(~Owns(Mary,G))

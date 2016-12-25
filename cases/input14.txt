@@ -1,0 +1,11 @@
+2
+Livesmore(Ani)
+Livesmore(Sid)
+7
+((Rich(x)    &   Healthy(x)) =>  Livesmore(x))
+((Exercise(x)   |   Eatwell(x))     => Healthy(x))
+((Rich(y) & Father(y,x))=>Rich(x))
+Rich(Ani)
+Father(Ani,Sid)
+(~Eatwell(Sid))
+Exercise(Sid)

@@ -1,0 +1,12 @@
+2
+King (John)
+King (Julius)
+8
+Queen (Mary)
+Husband (Mary, John)
+((Husband (y, x) & Queen(y)) => King(x))
+(Queen(x) => Beautiful(x))
+Husband (Sita, Julius)
+Sister (Mary, Sita)
+(Sister (x, y) => Sister (y, x))
+((Sister (x, y) & Queen (x)) => Queen(y))

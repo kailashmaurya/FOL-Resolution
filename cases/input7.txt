@@ -1,0 +1,9 @@
+1
+~Child(Scrooge)
+6
+(Child(x) => Loves(x, Santa))
+(Loves(x,Santa) => (Reindeer(y) => Loves(x,y)))
+(Reindeer(Rudolph) & Rednose(Rudolph))
+((Rednose(x) & Weird(x)) | Clown(x))
+((~Reindeer(x)) | (~Clown(x)))
+(Weird(x) => (~Loves(Scrooge,x)))
