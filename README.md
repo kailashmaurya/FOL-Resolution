@@ -27,17 +27,20 @@ Make sure Resolution.py and input.txt are in the same directory before running t
 &lt;NUMBER OF QUERIES&gt;<br>
 &lt;QUERY 1&gt;<br>
 ...<br>
-&lt;QUERY n&gt;<br>
+&lt;QUERY N&gt;<br>
 &lt;NUMBER OF FOL SENTENCES IN THE KNOWLEDGE BASE&gt;<br>
 &lt;FOL SENTENCE 1&gt;<br>
 ...<br>
-&lt;FOL SENTENCE m&gt;<br>
+&lt;FOL SENTENCE M&gt;<br>
+where,<br>
+Queries can be of the form: Father(John, Max)<br>
+and FOL statements can be of the form : (~(Parent(x,y) & Ancestor(y,z)) | Ancestor(x,z))<br>
 <br>
 # Output Format:
 For each query, the output denotes if that query can be inferred from the knowledge base or not, one query per line:<br>
 &lt;ANSWER 1&gt;<br>
 ...<br>
-&lt;ANSWER n&gt;<br>
+&lt;ANSWER N&gt;<br>
 where,<br>
 each answer is either TRUE if it can be proved given the knowledge base, or FALSE if it cannot be.<br>
 <br>
