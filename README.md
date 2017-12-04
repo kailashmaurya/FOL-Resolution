@@ -22,8 +22,10 @@ The steps involved in FOL to CNF conversion are:<br>
 9. Standardize the variables of each CNF statement.<br>
 <br>
 # How to execute:
+<br>
 Make sure Resolution.py and input.txt are in the same directory before running the script file. When you run the Resolution.py file, it reads input.txt and applies FOL to CNF conversion steps and performs resoltion to prove the queries. The script generates output.txt which contains the True/False output for each query. True if a query can be infered from the Knowledge base and False if it cannot be.<br>
 # Input Format:
+<br>
 &lt;NUMBER OF QUERIES&gt;<br>
 &lt;QUERY 1&gt;<br>
 ...<br>
@@ -37,6 +39,7 @@ Queries can be of the form: Father(John, Max)<br>
 and FOL statements can be of the form : (~(Parent(x,y) & Ancestor(y,z)) | Ancestor(x,z))<br>
 <br>
 # Output Format:
+<br>
 For each query, the output denotes if that query can be inferred from the knowledge base or not, one query per line:<br>
 &lt;ANSWER 1&gt;<br>
 ...<br>
@@ -45,4 +48,5 @@ where,<br>
 each answer is either TRUE if it can be proved given the knowledge base, or FALSE if it cannot be.<br>
 <br>
 # Runner:
+<br>
 You can test the script on multiple Knowledge bases present in cases directory using the Runner.py utility, Make sure you keep the 'cases' directory at the same level as Runner.py and Resolution.py
