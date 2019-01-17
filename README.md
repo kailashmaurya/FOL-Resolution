@@ -46,7 +46,8 @@ For each query, the output denotes if that query can be inferred from the knowle
 &lt;ANSWER N&gt;<br>
 where,<br>
 each answer is either TRUE if it can be proved given the knowledge base, or FALSE if it cannot be.<br>
-<br>
+<br>  
+
 # Runner:
 <br>
 You can test the script on multiple Knowledge bases present in cases directory using the Runner.py utility, Make sure you keep the 'cases' directory at the same level as Runner.py and Resolution.py
